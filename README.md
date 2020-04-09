@@ -29,9 +29,11 @@ Functionality:
     - Forwards or drops packets depending on peer relationships to the requested BGP neighbor
 
 Command line syntax:
+
 ./router <asn> <ip_address>-<peer|prov|cust> [...]
   
 Additionally, a net simulator was given to test the project. It is unmodified.
 
 Command line syntax for net simulator:
-$ ./sim [-h] [--test-dir <dir>] [--router <router>] <all|[milestone] file [...]>
+
+$ ./sim [-h] [--test-dir <dir>] [--router (router)] <all|[milestone] file [...]>
