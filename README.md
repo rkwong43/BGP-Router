@@ -36,4 +36,4 @@ Additionally, a net simulator was given to test the project. It is unmodified.
 
 Command line syntax for net simulator:
 
-$ ./sim [-h] [--test-dir <dir>] [--router (router)] <all|[milestone] file [...]>
+$ ./sim [-h] [--test-dir (dir)] [--router (router)] <all|[milestone] file [...]>
